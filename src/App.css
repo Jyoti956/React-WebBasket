@@ -1,0 +1,217 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@media only screen and (min-width:200px)
+
+{
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 10%;
+}#bag{
+  float: right;
+  margin-right: 90px;
+  font-size: 45px;
+  color: red;
+}#bag:hover{
+  color: greenyellow;
+}#card{
+  float: right;
+}sup{
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+}#foot{
+  position: absolute;
+}.home-container{
+  height: auto;
+}#img{
+  width: 235px;
+  height: 250px;
+  padding: 5px;
+  transition: transform .2s ease;
+}#img:hover{
+  transform: scale(1.1);
+}#pro{
+  border: 3px solid green;
+  width: 250px;
+  margin: 5px;
+}a{
+  float: right;
+}#cartimg{
+  width: 100px;
+  height: 100px;
+}.col-2{
+  padding-top: 5px;
+  padding-left:15px;
+}#check,#buy{
+  background-color: greenyellow;
+  color: green;
+  height: 50px;
+  width: 98%;
+  margin-left: 11px;
+  font-size: 25px;
+  font-weight: bold;
+}.remove,.addpro{
+  background-color: greenyellow;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}#cartdiv{
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  border: 1px solid green;
+  padding: 20px;
+}#cartdiv h2{
+  margin-left: 42%;
+  color: green;
+}#cartdiv h3{
+  color:greenyellow;
+  margin-left: 28%;
+}#cartdiv #empty{
+  height: 90px;
+  width: 90px;
+}.Login {
+  padding: 60px 0;
+}.Login form {
+  margin: 0 auto;
+  max-width: 320px;
+}#login h1{
+  margin-left: 20%;
+  margin-top: 5%;
+  color: green;
+}#login{
+  margin-top: 30px;
+  margin-left: 35%;
+  height: 500px;
+  width: 400px;
+  border: 1px solid greenyellow;
+}#navbar{
+  height: 108px;
+  background-color: yellowgreen;
+  text-align: center;
+  display:flex;
+}#logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}.child2{
+  width: 42%;
+  height: 350px;
+  margin-left: 3%;
+  color:red;
+  font-weight: bold;
+  margin-top: 15px;  
+}#navbar .child3{
+  margin-left: 36%;
+  margin-top: 60px;
+}.child4{
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-right: auto;
+}.child4 input{
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  border: 5px solid green;
+}.search::-webkit-input-placeholder{
+font-family: FontAwesome;
+font-weight: bold;
+font-size: 25px;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: greenyellow;
+}#navbar h2{
+  margin-right: 80%;
+  float: right;
+  margin-top: 50px;
+}#loginBtn Button{
+  background-color: greenyellow;
+  color: green;
+  margin-left: 30%;
+  font-size: 20px;
+  font-weight: bold;
+}#loginBtn Button:hover,
+#navbar:hover,#check:hover,
+.addpro:hover,#log button:hover,
+.back button:hover,#buy:hover,
+.ship Button:hover,.remove:hover{
+  background-color: green;
+  color: greenyellow;
+}.Login .lable{
+  color: green;
+}#loginBtn{
+  display: flex;
+}.error{
+  color:green;
+  font-size: 20px;
+}.errordiv{
+  background-color: yellowgreen;
+  color:green;
+  margin-left: 28%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  font-weight: bold;
+}.ship{
+  width: 80%;
+  margin-left: 10%;
+  border: 3px solid green;
+  padding: 25px;
+}.back{
+  float: left;
+  margin-left: 10px;
+}#logout{
+    float: right;
+    margin-right: 10px;
+}.back button{
+  background-color: greenyellow;
+  color: green;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}#log button{
+  float: right;
+  background-color: greenyellow;
+  color: green;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}.shipping h1{
+  margin-left: 38%;
+  color:green;
+}.ship Button{
+  background-color: greenyellow;
+  color: green;
+  margin-left: 40%;
+  font-size: 20px;
+  font-weight: bold;
+}.ship .lable{
+  color: green;
+}.order h1{
+  color: green;
+  margin-left: 5%;
+  margin-top: 15%;
+  font-weight: bold;
+}#logout{
+  color: green;
+  margin-right: 30%;
+  margin-top: 10%;
+}#smile{
+  font-size: 50px;
+  color: greenyellow;
+}
+ } 
+
